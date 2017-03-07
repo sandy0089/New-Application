@@ -1,8 +1,11 @@
-package com.example.sandy.newapplication;
+package com.example.simplevalueresources;
 
+import android.content.res.Configuration;
 import android.support.v4.content.ContextCompat;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.widget.ImageView;
+import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -11,8 +14,9 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        String txtHdr = getResources().getString(R.string.txtHdr);
-        int white = getResources().getColor(R.color.white);
-        white = ContextCompat.getColor(this, R.color.white);
+
     }
+
+
+
 }
