@@ -5,6 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/NewApplication.iml" filepath="$PROJECT_DIR$/NewApplication.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/providingresources/providingresources.iml" filepath="$PROJECT_DIR$/providingresources/providingresources.iml" />
+      <module fileurl="file://$PROJECT_DIR$/providingresourcesown/providingresourcesown.iml" filepath="$PROJECT_DIR$/providingresourcesown/providingresourcesown.iml" />
     </modules>
   </component>
 </project>

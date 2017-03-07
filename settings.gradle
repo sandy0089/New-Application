@@ -1,1 +1,1 @@
-include ':app', ':providingresources'
+include ':app', ':providingresources', ':providingresourcesown'
