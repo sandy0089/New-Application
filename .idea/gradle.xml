@@ -9,6 +9,8 @@
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/fragments" />
+            <option value="$PROJECT_DIR$/fragmenttask" />
             <option value="$PROJECT_DIR$/providingresources" />
             <option value="$PROJECT_DIR$/providingresourcesown" />
           </set>

@@ -1,1 +1,1 @@
-include ':app', ':providingresources', ':providingresourcesown'
+include ':app', ':providingresources', ':providingresourcesown', ':fragments', ':fragmenttask'

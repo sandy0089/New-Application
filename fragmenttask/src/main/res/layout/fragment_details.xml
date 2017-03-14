@@ -1,0 +1,22 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.fragmenttask.DetailsFragment">
+
+   <ImageView
+       android:id="@+id/imgCourse"
+       android:layout_width="@dimen/imgSize"
+       android:layout_height="@dimen/imgSize"
+       android:text="@string/hello_blank_fragment"
+       android:layout_centerInParent="true"
+       android:src="@mipmap/ic_launcher"/>
+
+    <TextView
+        android:id="@+id/txtInfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imgCourse"
+        android:text="Here is the Describtion about the Course"
+        android:gravity="center"/>
+</RelativeLayout>

@@ -18,6 +18,7 @@ import static android.content.ContentValues.TAG;
  */
 public class MenuFragment extends Fragment {
 
+    public static final String TAG = MenuFragment.class.getCanonicalName();
 
     public MenuFragment() {
         // Required empty public constructor
@@ -41,6 +42,7 @@ public class MenuFragment extends Fragment {
         return rootView;
 
     }
+
 
     private void loadFragment(String item) {
         MainActivity hostActivity = (MainActivity) getActivity();

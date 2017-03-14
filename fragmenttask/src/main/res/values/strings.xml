@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Fragment Task</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="hintUserName">User Name</string>
+    <string name="hintPassword">Password</string>
+    <string name="btnLogin">Login</string>
+
+    <string-array name="courses">
+        <item>Java</item>
+        <item>Android</item>
+        <item>Spring</item>
+        <item>Hibernate</item>
+        <item>Angular JS</item>
+        <item>Mongodb</item>
+
+    </string-array>
+
+</resources>

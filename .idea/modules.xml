@@ -4,6 +4,8 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/NewApplication.iml" filepath="$PROJECT_DIR$/NewApplication.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/fragments/fragments.iml" filepath="$PROJECT_DIR$/fragments/fragments.iml" />
+      <module fileurl="file://$PROJECT_DIR$/fragmenttask/fragmenttask.iml" filepath="$PROJECT_DIR$/fragmenttask/fragmenttask.iml" />
       <module fileurl="file://$PROJECT_DIR$/providingresources/providingresources.iml" filepath="$PROJECT_DIR$/providingresources/providingresources.iml" />
       <module fileurl="file://$PROJECT_DIR$/providingresourcesown/providingresourcesown.iml" filepath="$PROJECT_DIR$/providingresourcesown/providingresourcesown.iml" />
     </modules>
