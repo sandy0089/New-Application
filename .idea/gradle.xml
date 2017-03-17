@@ -9,10 +9,12 @@
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/dialog" />
             <option value="$PROJECT_DIR$/fragments" />
             <option value="$PROJECT_DIR$/fragmenttask" />
             <option value="$PROJECT_DIR$/providingresources" />
             <option value="$PROJECT_DIR$/providingresourcesown" />
+            <option value="$PROJECT_DIR$/toast" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />
