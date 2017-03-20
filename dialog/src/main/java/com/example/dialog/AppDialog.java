@@ -78,7 +78,7 @@ public class AppDialog extends DialogFragment {
         dialog.setMessage(getResources().getString(R.string.msg));
         dialog.setTitle(getResources().getString(R.string.title));
         dialog.setIcon(R.mipmap.ic_launcher);
-        dialog.setProgressStyle(ProgressDialog.STYLE_HORIZONTAL);
+        dialog.setProgressStyle(ProgressDialog.STYLE_SPINNER);
         return  dialog;
     }
 
