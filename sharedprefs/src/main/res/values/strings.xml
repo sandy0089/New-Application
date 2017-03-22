@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Shared Prefs</string>
+    <string name="btnSave">Save</string>
+    <string name="btnRetrieve">Reterive</string>
+</resources>
