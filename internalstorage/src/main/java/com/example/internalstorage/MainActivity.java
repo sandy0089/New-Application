@@ -23,7 +23,7 @@ public class MainActivity extends AppCompatActivity{
 
         try {
                 FileOutputStream fos = openFileOutput("my.txt", MODE_APPEND);
-                fos.write("This codekul.com".getBytes());
+                fos.write("This codekul.com\n".getBytes());
                 fos.close();
             } catch (Exception e) {
                 e.printStackTrace();
@@ -39,7 +39,7 @@ public class MainActivity extends AppCompatActivity{
                 if (ch == -1) break;
                 else builder.append((char) ch);
             }
-            Log.i(TAG,"Data From File" +builder.toString());
+            Log.i(TAG,"Data From File " +builder.toString());
             fis.close();
 
         }catch (Exception e){
@@ -49,12 +49,12 @@ public class MainActivity extends AppCompatActivity{
 
     public void onInfo(View view) {
         File file = getFilesDir();
-        Log.i(TAG,"Internal Storage Path:" +file.getAbsolutePath());
+        Log.i(TAG,"Internal Storage Path: " +file.getAbsolutePath());
 
         File myDir = new File(file,"myDir");
-        Log.i(TAG, "is directory created?" +myDir.mkdir());
+        Log.i(TAG, "is directory created? " +myDir.mkdir());
 
         String []files = fileList();
-        for(String name : files) Log.i(TAG, "File is" +name);
+        for(String name : files) Log.i(TAG, "File is: " +name);
     }
 }
