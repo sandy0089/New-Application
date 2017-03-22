@@ -1,1 +1,1 @@
-include ':app', ':providingresources', ':providingresourcesown', ':fragments', ':fragmenttask', ':toast', ':dialog', ':notification', ':intentsandintentfilters', ':broadcastreceiver', ':uithread'
+include ':app', ':providingresources', ':providingresourcesown', ':fragments', ':fragmenttask', ':toast', ':dialog', ':notification', ':intentsandintentfilters', ':broadcastreceiver', ':uithread', ':internalstorage'

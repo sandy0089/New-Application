@@ -2,8 +2,10 @@ package com.example.uithread;
 
 import android.app.ProgressDialog;
 import android.os.AsyncTask;
+import android.os.Build;
 import android.os.Handler;
 import android.os.Looper;
+import android.support.annotation.RequiresApi;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.widget.TextView;
@@ -52,6 +54,7 @@ public class MainActivity extends AppCompatActivity {
         }).start();
     }
 
+    @RequiresApi(api = Build.VERSION_CODES.CUPCAKE)
     private class MyTask extends AsyncTask<Integer/*Params*/, Integer /*Progress*/, Boolean /*Result*/>  {
 
         private ProgressDialog pd;
