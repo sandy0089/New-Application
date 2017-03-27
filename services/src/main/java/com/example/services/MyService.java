@@ -23,7 +23,7 @@ public class MyService extends Service {
         new Thread(new Runnable() {
             @Override
             public void run() {
-                player = MediaPlayer.create(MyService.this,R.raw.xyz);
+                player = MediaPlayer.create(MyService.this, R.raw.xyz);
                 player.start();
             }
         }).start();

@@ -8,7 +8,6 @@ import android.view.View;
 public class MainActivity extends AppCompatActivity {
 
     private Intent intent;
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -17,14 +16,11 @@ public class MainActivity extends AppCompatActivity {
         intent = new Intent(this, MyService.class);
     }
 
-
     public void play(View view) {
-
         startService(intent);
     }
 
     public void pause(View view) {
-
-        startService(intent);
+        stopService(intent);
     }
 }
