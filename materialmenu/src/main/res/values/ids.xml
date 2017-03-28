@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="action_Loc" type="id">Location</item>
+    <item name="action_cut" type="id">Cut</item>
+    <item name="action_copy" type="id">Copy</item>
+    <item name="action_location" type="id">Location</item>
+</resources>

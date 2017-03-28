@@ -1,0 +1,33 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.materialmenu.MainActivity">
+
+
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="@string/actionSettings"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_cut"
+        android:orderInCategory="101"
+        android:title="@string/actionCut"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_copy"
+        android:orderInCategory="103"
+        android:title="@string/actionCopy"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_location"
+        android:orderInCategory="104"
+        android:title="@string/actionLocation"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/ic_place_black_24dp"/>
+
+
+</menu>

@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Material Menu</string>
+    <string name="action_settings">Settings</string>
+    <string name="show">Show</string>
+    <string name="title_activity_location">ActivityLocation</string>
+    <string name="actionSettings">Settings</string>
+    <string name="actionCut">Cut</string>
+    <string name="actionCopy">Copy</string>
+    <string name="actionLocation">Location</string>
+</resources>

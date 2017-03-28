@@ -8,6 +8,7 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/adilserver" />
             <option value="$PROJECT_DIR$/app" />
             <option value="$PROJECT_DIR$/broadcastreceiver" />
             <option value="$PROJECT_DIR$/contactlist" />
@@ -17,6 +18,7 @@
             <option value="$PROJECT_DIR$/fragmenttask" />
             <option value="$PROJECT_DIR$/intentsandintentfilters" />
             <option value="$PROJECT_DIR$/internalstorage" />
+            <option value="$PROJECT_DIR$/materialmenu" />
             <option value="$PROJECT_DIR$/notification" />
             <option value="$PROJECT_DIR$/providingresources" />
             <option value="$PROJECT_DIR$/providingresourcesown" />

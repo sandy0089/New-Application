@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/NewApplication.iml" filepath="$PROJECT_DIR$/NewApplication.iml" />
+      <module fileurl="file://$PROJECT_DIR$/adilserver/adilserver.iml" filepath="$PROJECT_DIR$/adilserver/adilserver.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/broadcastreceiver/broadcastreceiver.iml" filepath="$PROJECT_DIR$/broadcastreceiver/broadcastreceiver.iml" />
       <module fileurl="file://$PROJECT_DIR$/contactlist/contactlist.iml" filepath="$PROJECT_DIR$/contactlist/contactlist.iml" />
@@ -12,6 +13,7 @@
       <module fileurl="file://$PROJECT_DIR$/fragmenttask/fragmenttask.iml" filepath="$PROJECT_DIR$/fragmenttask/fragmenttask.iml" />
       <module fileurl="file://$PROJECT_DIR$/intentsandintentfilters/intentsandintentfilters.iml" filepath="$PROJECT_DIR$/intentsandintentfilters/intentsandintentfilters.iml" />
       <module fileurl="file://$PROJECT_DIR$/internalstorage/internalstorage.iml" filepath="$PROJECT_DIR$/internalstorage/internalstorage.iml" />
+      <module fileurl="file://$PROJECT_DIR$/materialmenu/materialmenu.iml" filepath="$PROJECT_DIR$/materialmenu/materialmenu.iml" />
       <module fileurl="file://$PROJECT_DIR$/notification/notification.iml" filepath="$PROJECT_DIR$/notification/notification.iml" />
       <module fileurl="file://$PROJECT_DIR$/providingresources/providingresources.iml" filepath="$PROJECT_DIR$/providingresources/providingresources.iml" />
       <module fileurl="file://$PROJECT_DIR$/providingresourcesown/providingresourcesown.iml" filepath="$PROJECT_DIR$/providingresourcesown/providingresourcesown.iml" />
