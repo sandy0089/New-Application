@@ -4,11 +4,18 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
 
+import com.google.gson.Gson;
+
 import org.json.JSONArray;
 import org.json.JSONObject;
 
 import java.io.IOException;
 import java.io.InputStream;
+import java.util.ArrayList;
+
+import dto.Device;
+import dto.My;
+import dto.Versions;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -17,7 +24,13 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        StringBuilder builder= new StringBuilder();
+//        parseUsingJsonObjectApi(readJsonFromAssets());
+
+        parseUsingGson(readJsonFromAssets());
+    }
+
+    private String readJsonFromAssets(){
+        StringBuilder builder= new StringBuilder ();
 
         try {
             InputStream is = getAssets().open("my.json");
@@ -29,8 +42,9 @@ public class MainActivity extends AppCompatActivity {
         } catch (Exception e) {
             e.printStackTrace();
         }
-        parseUsingJsonObjectApi(builder.toString());
+        return builder.toString();
     }
+
 
     private void parseUsingJsonObjectApi(String json){
 
@@ -71,5 +85,30 @@ public class MainActivity extends AppCompatActivity {
         catch (Exception e){
             e.printStackTrace();
         }
+    }
+
+    private void parseUsingGson(String json){
+
+        Gson gson = new Gson();
+        My my = gson.fromJson(json, My.class);
+        Log.i("@example","Gson - "+my);
+
+        My myCon = new My();
+        myCon.setName("codekul.com");
+        myCon.setOs("Android");
+        myCon.setVer(5.1);
+
+        Versions versions = new Versions();
+        versions.setBase("android");
+        versions.setCupCake("android");
+
+        ArrayList<Device> devices = new ArrayList<>();
+        Device d1 = new Device();
+        d1.setCost(800);
+        d1.setMobile("android");
+        myCon.setDevices(devices);
+
+        String newJson = gson.toJson(myCon);
+        Log.i("@example", "Converted - "+newJson);
     }
 }
